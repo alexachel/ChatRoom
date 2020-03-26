@@ -1,0 +1,41 @@
+@import "../../variables";
+
+.messages {
+  flex: 1;
+  padding: 15px;
+
+  overflow-y: scroll;
+
+  .message {
+    width: 100%;
+    max-width: 90%;
+
+    &__sender {
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1;
+      color: $messageSenderColor;
+    }
+
+    &__text {
+      margin-top: 2px;
+
+      font-size: 14px;
+      line-height: 1;
+    }
+
+    & + .message {
+      margin-top: 15px;
+    }
+
+    &.me {
+      float: right;
+      text-align: right;
+      margin-bottom: 10px;
+    }
+
+    &:last-child {
+      margin-bottom: 15px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.send-message {
+  display: flex;
+  justify-self: flex-end;
+  padding: 5px;
+  border-top: 1px solid #ced4da;
+}
+.send-message .btn-primary {
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=SendMessage.css.map */

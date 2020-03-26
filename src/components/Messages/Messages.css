@@ -1,0 +1,33 @@
+.messages {
+  flex: 1;
+  padding: 15px;
+  overflow-y: scroll;
+}
+.messages .message {
+  width: 100%;
+  max-width: 90%;
+}
+.messages .message__sender {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  color: #42648b;
+}
+.messages .message__text {
+  margin-top: 2px;
+  font-size: 14px;
+  line-height: 1;
+}
+.messages .message + .message {
+  margin-top: 15px;
+}
+.messages .message.me {
+  float: right;
+  text-align: right;
+  margin-bottom: 10px;
+}
+.messages .message:last-child {
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=Messages.css.map */

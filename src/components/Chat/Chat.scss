@@ -1,0 +1,30 @@
+@import "../../variables";
+
+.chat-wrapper {
+  width: 400px;
+  height: 500px;
+
+  border: 1px solid $borderColor;
+  border-radius: .25rem;
+  overflow: hidden;
+
+  .loadedContent {
+    height: 100%;
+  }
+
+  .chat {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    &__title {
+      justify-self: flex-start;
+      padding: 7px 0;
+
+      font-weight: bold;
+      text-align: center;
+
+      border-bottom: 1px solid $borderColor;
+    }
+  }
+}
